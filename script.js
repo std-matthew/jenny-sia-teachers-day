@@ -33,13 +33,13 @@ function particle(x, y, i, minv) {
     y: y,
     vx: vx,
     vy: vy,
-    width: Math.random() * 15 + 8,
-    height: Math.random() * 20 + 8,
+    width: Math.random() * 1 + 8,
+    height: Math.random() * 2 + 8,
     color: colors[i % colors.length],
     circle: Math.random() > 0.8,
     rotate: Math.random() * 180,
     direction: Math.random() * 5 - 2.5,
-    fallSpeed: Math.random() / 10 + 0.1
+    fallSpeed: Math.random() / 20 + 0.1
   };
 }
 

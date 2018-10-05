@@ -4,11 +4,11 @@ h1, h2 {
 }
 
 h1 {
-	font-size: 4em;
+	font-size: 2em;
 }
 
 h2 {
-	font-size: 3.5em;
+	font-size: 3em;
 }
 
 body {
@@ -30,6 +30,14 @@ body {
 
 .line__height--s {
 	line-height: 0.5em;
+}
+
+.big {
+	font-size: 2em;
+}
+
+.mb-5 {
+	margin-bottom: 50px;
 }
 
 .center-screen {
