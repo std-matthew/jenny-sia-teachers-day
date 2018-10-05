@@ -4,12 +4,11 @@ h1, h2 {
 }
 
 h1 {
-	font-size: 5em;
-	line-height: 0px;
+	font-size: 4em;
 }
 
 h2 {
-	font-size: 4.5em;
+	font-size: 3.5em;
 }
 
 body {
@@ -23,6 +22,14 @@ body {
 
 .white {
 	color: #fff;
+}
+
+.line__height--m {
+	line-height: 2em;
+}
+
+.line__height--s {
+	line-height: 0.5em;
 }
 
 .center-screen {
